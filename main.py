@@ -1,6 +1,6 @@
 # main.py
 from io import BytesIO
-from groq import generate_response
+from hf import generate_response
 import requests
 import streamlit as st
 from huggingface_hub import InferenceClient
